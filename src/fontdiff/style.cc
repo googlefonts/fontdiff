@@ -255,7 +255,7 @@ void Style::SetFontSize(double size) {
 }
 
 void Style::SetFontWeight(double weight) {
-  fontWeight_ = clamp(weight, 100.0, 1000.0);
+  fontWeight_ = clamp(weight, 1.0, 1000.0);
 }
 
 void Style::SetFontWidth(double width) {
