@@ -3,6 +3,11 @@
         {
             'target_name': 'ragel',
             'type': 'executable',
+            'conditions': [
+                ['OS == "linux"', {
+                    'cflags': ['-std=gnu++98'],
+                }],
+            ],
             'sources': [
                 'files/ragel/cdcodegen.cpp',
                 'files/ragel/cdfflat.cpp',
