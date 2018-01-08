@@ -11,7 +11,7 @@ errors caused by a font switch.
 For every line in the text sample, the tool renders two raster images
 in high resolution. One image is typeset using the original font, and
 the second uses the new font.  If there is any difference between
-these two high-resulution images (even if it’s just whitespace caused
+these two high-resolution images (even if it’s just whitespace caused
 by kerning changes), the output PDF highlights the difference in
 color.
 
